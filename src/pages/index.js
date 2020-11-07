@@ -83,6 +83,17 @@ export default (() => {
 				Undo/redo buttons and keyboard shortcuts are at your fingertips.
 			</Text>
 			<Box position="relative">
+				<Box
+					background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f44d57c7f10ba001eace3a0/images/brush-stroke.svg?v=2020-10-16T13:20:42.549Z) 0%/cover no-repeat scroll padding-box"
+					display="inline-block"
+					width="96px"
+					height="16px"
+					position="absolute"
+					top="auto"
+					right="-10px"
+					bottom="-1px"
+					left="auto"
+				/>
 				<Text
 					as="p"
 					font="--headline3"
@@ -97,20 +108,12 @@ export default (() => {
 					position="relative"
 					z-index="1"
 					sm-font="--lead"
+					transition="all --transitionDuration-fastest --transitionTimingFunction-easeIn 0s"
+					transform="--rotate90"
+					filter="--blur"
 				>
 					Try Quarkly and see for yourself!
 				</Text>
-				<Box
-					background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f44d57c7f10ba001eace3a0/images/brush-stroke.svg?v=2020-10-16T13:20:42.549Z) 0%/cover no-repeat scroll padding-box"
-					display="inline-block"
-					width="96px"
-					height="16px"
-					position="absolute"
-					top="auto"
-					right="-10px"
-					bottom="-1px"
-					left="auto"
-				/>
 			</Box>
 		</Section>
 		<Section background="--color-darkL2" padding="64px 0" sm-padding="40px 0">
