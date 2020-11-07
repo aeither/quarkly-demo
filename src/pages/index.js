@@ -2312,6 +2312,7 @@ export default (() => {
 						</Em>
 						{" "}with your custom components.
 					</Text>
+					<Image width="64px" height="64px" />
 				</List>
 				<Box
 					width="50%"
